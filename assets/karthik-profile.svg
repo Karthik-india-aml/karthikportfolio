@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Karthik Profile Placeholder</title>
+  <desc id="desc">Placeholder avatar until profile photo is added</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4dcf8" />
+      <stop offset="100%" stop-color="#aab8ea" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g)" />
+  <circle cx="300" cy="240" r="110" fill="#273c75" opacity="0.9" />
+  <path
+    d="M140 520c20-98 102-170 200-170s180 72 200 170"
+    fill="#273c75"
+    opacity="0.9"
+  />
+  <text
+    x="300"
+    y="560"
+    text-anchor="middle"
+    font-family="Inter, Arial, sans-serif"
+    font-size="34"
+    fill="#101b3b"
+    font-weight="700"
+  >
+    KARTHIK
+  </text>
+</svg>

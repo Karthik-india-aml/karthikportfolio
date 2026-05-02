@@ -1,0 +1,93 @@
+/* Navigation Actions - Resume and Contact Buttons */
+.nav-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(167, 139, 250, 0.12);
+  border: 1px solid rgba(167, 139, 250, 0.24);
+  color: #a6b6dc;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  background: rgba(167, 139, 250, 0.24);
+  border-color: rgba(167, 139, 250, 0.45);
+  color: #cfe7ff;
+}
+
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-resume {
+  background: linear-gradient(135deg, #4f7dff 0%, #8f52ff 55%, #16c4ff 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(136, 164, 245, 0.55) !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  border-radius: 10px !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none;
+}
+
+.btn-resume:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 12px 26px rgba(67, 89, 193, 0.35) !important;
+  transform: translateY(-2px) !important;
+}
+
+.btn-resume svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+}
+
+.btn-contact {
+  background: #ffffff !important;
+  color: #111b3b !important;
+  border: none !important;
+  padding: 11px 20px !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  border-radius: 10px !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  background: #f0f0f0 !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15) !important;
+  transform: translateY(-2px) !important;
+}
+
+@media (max-width: 768px) {
+  .nav-actions {
+    gap: 8px;
+  }
+
+  .btn-resume,
+  .btn-contact {
+    padding: 10px 14px !important;
+    font-size: 0.85rem !important;
+  }
+
+  .btn-resume svg {
+    width: 16px;
+    height: 16px;
+  }
+}
